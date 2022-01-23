@@ -1,3 +1,6 @@
+#ifndef test_color_coder_h
+#define test_color_coder_h
+
 #include <iostream>
 #include <assert.h>
 #include "colorCoderUtilities.h"
@@ -22,3 +25,5 @@ void testPairToNumber(
     std::cout << "Got pair number " << pairNumber << std::endl;
     assert(pairNumber == expectedPairNumber);
 }
+
+#endif

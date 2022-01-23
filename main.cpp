@@ -8,6 +8,7 @@ int main() {
 
     testPairToNumber(TelCoColorCoder::BLACK, TelCoColorCoder::ORANGE, 12);
     testPairToNumber(TelCoColorCoder::VIOLET, TelCoColorCoder::SLATE, 25);
-
+    // auto list = TelCoColorCoder::CreateColorPairWithPairNumberList(TelCoColorCoder::numberOfMajorColors * TelCoColorCoder::numberOfMinorColors);
+    // TelCoColorCoder::PrintColorPairList(list);
     return 0;
 }

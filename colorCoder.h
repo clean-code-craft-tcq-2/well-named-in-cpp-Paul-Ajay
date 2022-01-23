@@ -1,3 +1,6 @@
+#ifndef color_coder_h
+#define color_coder_h
+
 #include <iostream>
 #include <assert.h>
 
@@ -39,3 +42,5 @@ namespace TelCoColorCoder
             }
     };
 }
+
+#endif
